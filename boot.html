@@ -6,6 +6,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Bootstrap/Assignament</title>
+
+
+    <!--Google fonts links-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
@@ -16,7 +19,7 @@
 </head>
 
 <body>
-
+    <!--header -->
 
     <div class="container">
 
@@ -50,6 +53,8 @@
                 <p class="lead text-light">Sit Back, Relax and enjoy the Show...</p>
             </div>
         </div>
+
+        <!--/header-->
 
         <div class="container">
             <div class="row">
@@ -203,7 +208,7 @@
 
 
 
-
+                <!--the button with popover-->
                 <button type="button" class="btn btn-info popover-dismiss" data-container="body" data-toggle="popover"
                     data-placement="top" data-content="Submit Your E-mail to receive great movie reward deals!">
                     Sign in!
@@ -214,7 +219,8 @@
 
 
 
-    <!--form modal-->
+    <!--form modal
+    this section show up the pop up when the button "see our monthly..." was clicked -->
     <div class="modal fade" id="register">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -309,8 +315,10 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
 
+    <!--jquery -->
+
     <script>
-        $('.popover-dismiss').popover({
+        $('.popover-dismiss').popover({ //jQuery with function that start up popovers
             trigger: 'focus'
         })
     </script>
