@@ -21,7 +21,7 @@ html {
 
 section h1 {
     text-align: center;
-    
+
 
 
 }
@@ -59,6 +59,14 @@ section {
 .btn {
     margin-top: 5px;
 
+}
+
+.mode {
+    margin-left: 38%;
+    /* padding: 2px 3px; */
+    text-transform: uppercase;
+    border: none;
+    transition: 0.2s;
 }
 
 .lead {
