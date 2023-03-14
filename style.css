@@ -63,13 +63,14 @@ section {
 
 .mode {
     margin-left: 38%;
-    /* padding: 2px 3px; */
+    padding: 5px 4px;
     text-transform: uppercase;
-    border: none;
+    border: 2px solid;
     transition: 0.2s;
 }
 
 .lead {
     text-align: center;
+    
 
 }
