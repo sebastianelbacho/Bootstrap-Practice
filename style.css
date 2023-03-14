@@ -1,10 +1,12 @@
-* {                            /* Reset browser set  */
+* {
+    /* Reset browser set  */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 html {
+    /*  the whole page is scrolling smoothly */
     scroll-behavior: smooth;
 }
 
@@ -12,27 +14,31 @@ html {
 .col-sm {
     
 } */
- 
-.display-4 {                       /* font size and text transformed from small to upper     */
+
+.display-4 {
+    /* font size and text transformed from small to upper     */
     font-weight: bold;
     text-transform: uppercase;
 }
 
 
 section h1 {
-    text-align: center;      /*  text set opn center  */
+    text-align: center;
+    /*  text set opn center  */
 
 
 
 }
 
 section {
-    background-color: rgb(248, 248, 248);    /* bacgraound-color set in RED, GREEN and blue value     */
+    background-color: rgb(248, 248, 248);
+    /* bacgraound-color set in RED, GREEN and blue value     */
 
 
 }
 
-.card-title {                 /* all cards titles set in the middle   */
+.card-title {
+    /* all cards titles set in the middle   */
     text-align: center;
 }
 
@@ -41,28 +47,32 @@ section {
 
 
 .card-img-top {
+    /* images inside the cards height and size of picture (object-fit: cover; display the picture without any deformation   */
     height: 300px;
     object-fit: cover;
 }
 
-.text-primary {
+/* .text-primary {
     text-transform: uppercase;
     font-family: 'Gloock', serif;
-    letter-spacing: 2px;
-}
+    letter-spacing: 9px;
+} */
 
 .form-control {
+    /* lower placeholder width(vievport width) margin  */
     width: 40vw;
     margin: auto;
 }
 
 .btn {
     margin-top: 5px;
+    /* the button under lower placeholder with 5px distance from form-control  */
 
 }
 
 .mode {
     margin-left: 38%;
+    /*  the button with popover function in lower jumbotron    */
     padding: 5px 4px;
     text-transform: uppercase;
     border: 2px solid;
@@ -70,7 +80,8 @@ section {
 }
 
 .lead {
+    /* paragraph with class lead text centered    */
     text-align: center;
-    
+
 
 }
